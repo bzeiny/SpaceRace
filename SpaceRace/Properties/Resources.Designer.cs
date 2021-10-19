@@ -63,6 +63,33 @@ namespace SpaceRace.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream collide {
+            get {
+                return ResourceManager.GetStream("collide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream gameSound {
+            get {
+                return ResourceManager.GetStream("gameSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream level {
+            get {
+                return ResourceManager.GetStream("level", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream ouch {
             get {
                 return ResourceManager.GetStream("ouch", resourceCulture);
@@ -94,6 +121,16 @@ namespace SpaceRace.Properties {
         internal static System.IO.UnmanagedMemoryStream point {
             get {
                 return ResourceManager.GetStream("point", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap spaceBackground {
+            get {
+                object obj = ResourceManager.GetObject("spaceBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
